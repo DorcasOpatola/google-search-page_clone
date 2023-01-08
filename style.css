@@ -21,6 +21,9 @@ nav {
     height: 46px;
     font-size: 16px;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .search-box {
@@ -29,6 +32,32 @@ nav {
     align-items: center;
 }
 
+.google-search-icons {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#messi-name {
+    width: 337px;
+}
+
 #search-box {
-    font-size: 18px;
+    padding: 0px 8px;
+}
+
+#a1 {
+    padding: 0px 8px;
+}
+
+#a2 {
+    padding: 0px 8px;
+}
+
+#a3 {
+    padding: 0px 14px 0px 0px;
+}
+
+.search-box {
+    padding: 5px 8px 0px 14px;
 }
