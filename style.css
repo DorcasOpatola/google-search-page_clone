@@ -13,6 +13,7 @@ nav {
 .google-logo img {
     height: 32px;
     width: 92px;
+    padding: 4px 28px 0px 30px;
 }
 
 .search-query {
@@ -40,10 +41,19 @@ nav {
 
 #messi-name {
     width: 337px;
+    padding-bottom: 5px;
 }
 
 #search-box {
     padding: 0px 8px;
+    padding-bottom: 5px;
+}
+
+#line {
+    border-left: 1px solid #5f6368;
+    height: 30px;
+    display: block;
+    padding: 0px 0px 0px 5px;
 }
 
 #a1 {
@@ -55,9 +65,19 @@ nav {
 }
 
 #a3 {
-    padding: 0px 14px 0px 0px;
+    padding: 0px 1px 0px 8px;
 }
 
 .search-box {
-    padding: 5px 8px 0px 14px;
+    padding: 5px 8px 2px 14px;
+}
+
+#unnamed {
+    border-radius: 50%;
+}
+
+.user-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
